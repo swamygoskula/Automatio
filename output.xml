@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20210304 14:00:54.579" generator="Robot 3.2.2 (Python 2.7.14 on win32)">
+<suite source="C:\Users\hp\PycharmProjects\Automatio\testcases\sample.robot" id="s1" name="Sample">
+<test id="s1-t1" name="LoginTest">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://www.google.co.in/</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20210304 14:01:01.471" level="INFO">Opening browser 'Chrome' to base url 'https://www.google.co.in/'.</msg>
+<status status="PASS" endtime="20210304 14:01:18.175" starttime="20210304 14:01:01.471"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20210304 14:01:20.815" starttime="20210304 14:01:18.175"></status>
+</kw>
+<status status="PASS" endtime="20210304 14:01:20.815" critical="yes" starttime="20210304 14:01:01.471"></status>
+</test>
+<status status="PASS" endtime="20210304 14:01:20.846" starttime="20210304 14:00:54.605"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Sample" pass="1">Sample</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

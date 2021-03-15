@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20210214 09:59:44.653" generator="Robot 3.2.2 (Python 2.7.14 on win32)">
+<suite source="C:\Users\hp\PycharmProjects\Automatio\testcases\tagstest.robot" id="s1" name="Tagstest">
+<test id="s1-t1" name="Verify Basic Search Functionality For eBay">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://opensource-demo.orangehrmlive.com/</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20210214 09:59:47.583" level="INFO">Opening browser 'Chrome' to base url 'https://opensource-demo.orangehrmlive.com/'.</msg>
+<status status="PASS" endtime="20210214 09:59:56.262" starttime="20210214 09:59:47.568"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>id:txtUsername</arg>
+<arg>Admin</arg>
+</arguments>
+<msg timestamp="20210214 09:59:56.262" level="INFO">Typing text 'Admin' into text field 'id:txtUsername'.</msg>
+<status status="PASS" endtime="20210214 09:59:56.840" starttime="20210214 09:59:56.262"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>id:txtPassword</arg>
+<arg>admin123</arg>
+</arguments>
+<msg timestamp="20210214 09:59:56.840" level="INFO">Typing text 'admin123' into text field 'id:txtPassword'.</msg>
+<status status="PASS" endtime="20210214 09:59:57.100" starttime="20210214 09:59:56.840"></status>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<doc>Clicks the button identified by ``locator``.</doc>
+<arguments>
+<arg>id:btnLogin</arg>
+</arguments>
+<msg timestamp="20210214 09:59:57.100" level="INFO">Clicking button 'id:btnLogin'.</msg>
+<status status="PASS" endtime="20210214 10:00:02.109" starttime="20210214 09:59:57.100"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20210214 10:00:05.430" starttime="20210214 10:00:02.109"></status>
+</kw>
+<doc>This test case verify the basic search</doc>
+<tags>
+<tag>Functional</tag>
+</tags>
+<status status="PASS" endtime="20210214 10:00:05.430" critical="yes" starttime="20210214 09:59:47.568"></status>
+</test>
+<doc>Basic Search Functionality</doc>
+<status status="PASS" endtime="20210214 10:00:05.454" starttime="20210214 09:59:44.669"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="1">Functional</stat>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Tagstest" pass="1">Tagstest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
